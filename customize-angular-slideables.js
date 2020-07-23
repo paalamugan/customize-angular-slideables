@@ -77,10 +77,15 @@ angular.module('customize-angular-slideables', []).directive('slideable', functi
                         target.classList.toggle('slide-open');
 
                         if(target.classList.contains('slide-open')) {
+                            
                             content.style.border = '1px solid rgba(0,0,0,0)';
-                            var y = content.clientHeight;
+                            
+                            var clientHeight = content.clientHeight;
+                            
                             content.style.border = 0;
-                            target.style.height = y + 'px';
+                            
+                            target.style.height = clientHeight + 'px';
+                            
                         } else {
                             target.style.height = '0px';
                         }                                       
