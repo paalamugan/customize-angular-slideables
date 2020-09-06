@@ -1,7 +1,7 @@
 # Customize Angular Slideables
 Customize Angular Slideables Script Support with or without jquery.
 
-View Demo: https://paalamugan.github.io/customize-angular-slideables/
+View Demo: https://customize-angular-slideable.netlify.app
 
 **Examples**
 
